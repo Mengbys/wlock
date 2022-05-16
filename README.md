@@ -11,7 +11,7 @@ Once wlock is installed, you can type ```wlock``` in the command line and press 
 ## Pre-built Release
 Pre-built binary file can be found [here](https://github.com/Mengbys/wlock/releases), which is built on gcc (version 9.4.0) and make (version 4.2.1). And it serves for linux platform (maybe MacOS?).
 
-After downloading, you should do some extra things to make wlock work:
+After downloading, you should do some things extra to make wlock work:
 ```bash
 # with sudo privilege
 $ chown root ./wlock
@@ -19,7 +19,7 @@ $ chgrp root ./wlock
 $ chmod 7411 ./wlock
 $ mv ./wlock /usr/sbin
 ```
-You can remove wlock by simply ```sudo rm /usr/sbin/wlock```.
+You can simply remove wlock by ```sudo rm /usr/sbin/wlock```.
 
 ## Build from Source
 #### Requirement
