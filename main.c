@@ -11,8 +11,8 @@
 #include "ui.h"
 #include "auth.h"
 
-// default timeout value 60.
-#define TIMEOUT_VAL 10
+// default timeout value 30.
+#define TIMEOUT_VAL 30
 
 int terminate_signal = 0;
 int error_signal = 0;
