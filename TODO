@@ -1,0 +1,12 @@
+# TODO
+* make the program behave normally when change window's size. V
+* add user-password authentication. V
+* disable system signal. V
+* eva-like bottom line. X
+* adjust authentication prompt. V
+* write makefile
+* middle pic size limit. V
+* read configuration from configure file, etc. `config.ini`.
+* add root authentication. when root failed, return locked. V
+* why 4711 timeout become useless? V
+* disable CTRL-D when program running.
