@@ -1,11 +1,15 @@
 # wlock
 wlock is a simple console locker, which is basically built on the work of [vlock](https://github.com/WorMzy/vlock). wlock can only lock the current terminal console, but it can show a fancy ui appearance (designed by myself) once locked. I pretty love it although you may think it is a meaningless work.
 
+
+![gif](https://github.com/Mengbys/wlock/blob/main/img/1.gif)
+
+
 ## Usage
 Once wlock is installed, you can type ```wlock``` in the command line and press Enter to lock your console. If you want to unlock it, you need to press Enter and input the password for current user or root. The whole work flow of wlock is shown in the gif above.
 
 ## Pre-built Release
-Pre-built binary file can be found [here](https://www.baidu.com), which is built on gcc (version 9.4.0) and make (version 4.2.1). And it serves for linux platform (maybe MacOS?).
+Pre-built binary file can be found [here](https://github.com/Mengbys/wlock/releases), which is built on gcc (version 9.4.0) and make (version 4.2.1). And it serves for linux platform (maybe MacOS?).
 
 After downloading, you should do some extra things to make wlock work:
 ```bash
