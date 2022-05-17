@@ -8,7 +8,8 @@ wlock is a simple console locker, which is basically built on the work of [vlock
 ## Usage
 Once wlock is installed, you can type ```wlock``` in the command line and press Enter to lock your console. If you want to unlock it, you need to press Enter and input the password for current user or root. The whole work flow of wlock is shown in the gif above.
 
-## Pre-built Release
+## Installation
+### Pre-built Release
 Pre-built binary file can be found [here](https://github.com/Mengbys/wlock/releases), which is built on gcc (version 9.4.0) and make (version 4.2.1). And it serves for linux platform (maybe MacOS?).
 
 After downloading, you should do some things extra to make wlock work:
@@ -21,7 +22,7 @@ $ mv ./wlock /usr/sbin
 ```
 You can simply remove wlock by ```sudo rm /usr/sbin/wlock```.
 
-## Build from Source
+### Build from Source
 #### Requirement
 - gcc
 - make
