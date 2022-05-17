@@ -14,10 +14,9 @@ Pre-built binary file can be found [here](https://github.com/Mengbys/wlock/relea
 
 After downloading, you should do some things extra to make wlock work:
 ```bash
-# with sudo privilege
-$ chown root ./wlock
-$ chgrp root ./wlock
-$ chmod 7411 ./wlock
+$ sudo chown root ./wlock
+$ sudo chgrp root ./wlock
+$ sudo chmod 4711 ./wlock
 $ mv ./wlock /usr/sbin
 ```
 You can simply remove wlock by ```sudo rm /usr/sbin/wlock```.
