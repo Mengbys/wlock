@@ -17,7 +17,7 @@ After downloading, you should do some things extra to make wlock work:
 $ sudo chown root ./wlock
 $ sudo chgrp root ./wlock
 $ sudo chmod 4711 ./wlock
-$ mv ./wlock /usr/sbin
+$ sudo mv ./wlock /usr/sbin
 ```
 You can simply remove wlock by ```sudo rm /usr/sbin/wlock```.
 
